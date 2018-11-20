@@ -1,14 +1,19 @@
 {
   "name": "vuex-modules",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.4.0",
+  "description": "Exemplo de uso de modulos no Vuex",
   "main": "index.js",
   "scripts": {
     "dev": "parcel -p 8080 --no-cache ./src/index.html",
-    "build": "parcel build ./src/index.html --no-cache --no-source-maps"
+    "build": "parcel build ./src/index.html --public-url ./ --no-cache --no-source-maps"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "modules",
+    "vuex",
+    "example",
+    "parcel"
+  ],
+  "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.5.17",
