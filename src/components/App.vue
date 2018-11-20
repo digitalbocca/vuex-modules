@@ -6,7 +6,7 @@
     router-view/
 </template>
 
-<script lang="ts">
+<script>
 
 import { mapGetters } from 'vuex'
 

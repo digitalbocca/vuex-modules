@@ -21,9 +21,8 @@
     "parcel-bundler": "^1.10.3",
     "parcel-plugin-clean-dist": "0.0.6",
     "pug": "^2.0.3",
-    "sass": "^1.14.3",
+    "sass": "^1.15.1",
     "standard": "^12.0.1",
-    "typescript": "^3.1.6",
     "vue-template-compiler": "^2.5.17"
   }
 }
