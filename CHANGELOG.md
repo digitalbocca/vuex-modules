@@ -2,9 +2,13 @@
 
 ## vuex-modules
 
-### v0.5.0
+### v0.6.0
 
 ---
+
+## Mudanças na v0.6.0
+
+- Atualização de dependências.
 
 ## Mudanças na v0.5.0
 
@@ -14,4 +18,4 @@
 
 - Adicionados arquivos de informações .MD.
 
-> (c)2018 - Estúdio Digital Bocca.
+> (c)2018-2019 Estúdio Digital Bocca.
