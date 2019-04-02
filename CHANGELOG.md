@@ -2,9 +2,14 @@
 
 ## vuex-modules
 
-### v0.7.0
+### v0.8.0
 
 ---
+
+## Mudanças na v0.8.0
+
+- Automatizado o controle de versão.
+- Atualização de dependências.
 
 ## Mudanças na v0.7.0
 
