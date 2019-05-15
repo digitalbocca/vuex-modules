@@ -3,8 +3,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Frutas from './../components/Frutas'
-import Nomes from './../components/Nomes'
+import Frutas from './../components/Frutas/Index'
+import Nomes from './../components/Nomes/Index'
 
 Vue.use(Router)
 

@@ -2,7 +2,7 @@
 
 ## vuex-modules
 
-### 0.8.0
+### 0.9.0
 
 > Exemplo de uso de modulos no Vuex.
 

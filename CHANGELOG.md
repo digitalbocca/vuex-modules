@@ -2,9 +2,14 @@
 
 ## vuex-modules
 
-### v0.8.0
+### v0.9.0
 
 ---
+
+## Mudanças na v0.9.0
+
+- Correção no arquivo de rotas.
+- Atualização de dependências.
 
 ## Mudanças na v0.8.0
 
