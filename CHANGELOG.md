@@ -2,9 +2,14 @@
 
 ## vuex-modules
 
-### v0.11.0
+### v0.12.0
 
 ---
+
+## Mudanças na v0.12.0
+
+- Arquivos HTML migrados para PUG.
+- Atualização de dependências.
 
 ## Mudanças na v0.11.0
 
