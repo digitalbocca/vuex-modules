@@ -3,7 +3,7 @@
     h1 Aqui Começa nossa Jornada pelo Vuex
     p {{ app }}
     p Daqui pra frente é conteúdo recebido pelo Router
-    router-view/
+    router-view
 </template>
 
 <script>

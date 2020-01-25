@@ -2,7 +2,7 @@
 
 ## vuex-modules
 
-### 0.12.0
+### 0.13.0
 
 > Exemplo de uso de modulos no Vuex.
 
@@ -22,4 +22,4 @@
 
 - MIT
 
-> (c)2018-2019 Estúdio Digital Bocca.
+> (c)2018-2020 Estúdio Digital Bocca.
