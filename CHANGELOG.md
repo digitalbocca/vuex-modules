@@ -1,10 +1,27 @@
-# Estúdio Digital Bocca
-
-## vuex-modules
-
-### v0.13.0
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v0.14.0</p>
+  <h1 align="center">vuex-modules</h1>
+  <h4 align="center">
+    Exemplo de uso de módulos no Vuex.
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v0.14.0/orange">
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
 ---
+
+# Vuex Modules - CHANGELOG
+
+---
+
+## Mudanças na v0.14.0
+
+- Melhoria no html e sass.
+- Arquivos .md seguem o padrão EDB2020.
+- Atualização de dependências.
 
 ## Mudanças na v0.13.0
 

@@ -1,6 +1,7 @@
 <template lang="pug">
-  p Aqui é Uma Lista de Nomes. Nada mais.
-    span {{ app }}
+  .nomes
+    p Aqui é Uma Lista de Nomes. Nada mais.
+    p Informação da Store: {{ app }}
 </template>
 
 <script>

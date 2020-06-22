@@ -1,8 +1,11 @@
 <template lang="pug">
   .container#app
-    h1 Aqui Começa nossa Jornada pelo Vuex
+    h1 Módulos do Vuex
     p {{ app }}
-    p Daqui pra frente é conteúdo recebido pelo Router
+    p Abaixo dos botões é conteúdo recebido dos módulos
+    p
+      button.btn(@click="goto('/frutas')") Lista de Frutas
+      button.btn(@click="goto('/nomes')") Lista de Nomes
     router-view
 </template>
 
@@ -14,6 +17,11 @@ export default {
   name: 'App',
   computed: {
     ...mapGetters(['app'])
+  },
+  methods: {
+    goto (slug) {
+      this.$router.push(slug)
+    }
   }
 }
 </script>

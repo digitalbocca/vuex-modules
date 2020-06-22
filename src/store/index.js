@@ -10,7 +10,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    app: 'Este é o App da store Central'
+    app: 'Este conteúdo vem da store Central'
   },
   getters: {
     app (state) {

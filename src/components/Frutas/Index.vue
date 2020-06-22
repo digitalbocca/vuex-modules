@@ -1,6 +1,7 @@
 <template lang="pug">
-  p Aqui é Uma Lista de Frutas. Nada mais.
-    span Informação da Store: {{ getApp }}
+  .frutas
+    p Aqui é Uma Lista de Frutas. Nada mais.
+    p Informação da Store: {{ getApp }}
 </template>
 
 <script>
