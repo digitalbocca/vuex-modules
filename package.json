@@ -1,6 +1,6 @@
 {
   "name": "vuex-modules",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Exemplo de uso de modulos no Vuex",
   "main": "index.js",
   "config": {
@@ -29,19 +29,19 @@
   "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4",
-    "vue-router": "^3.3.4",
-    "vuex": "^3.4.0"
+    "vue-router": "^3.4.9",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.1.2",
+    "@vue/component-compiler-utils": "^3.2.0",
     "cross-var-no-babel": "^1.2.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-easy": "^1.0.2",
     "pug": "^3.0.0",
-    "sass": "^1.26.8",
-    "standard": "^14.3.4",
-    "vue-template-compiler": "^2.6.11"
+    "sass": "^1.29.0",
+    "standard": "^16.0.2",
+    "vue-template-compiler": "^2.6.12"
   }
 }
