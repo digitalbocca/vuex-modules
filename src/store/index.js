@@ -1,14 +1,11 @@
 'use strict'
 
-import Vue from 'vue'
-import Vuex from 'vuex'
+import { createStore } from 'vuex'
 
 import Frutas from './../components/Frutas/store'
 import Nomes from './../components/Nomes/store'
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
+const store = createStore({
   state: {
     app: 'Este conteúdo vem da store Central'
   },
@@ -22,3 +19,5 @@ export default new Vuex.Store({
     Nomes
   }
 })
+
+export default store

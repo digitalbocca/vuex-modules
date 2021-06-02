@@ -1,15 +1,16 @@
 'use strict'
 
-import Vue from 'vue'
+import { createApp } from 'vue'
 
 import App from './../components/App'
 import router from './../router'
 import store from './../store'
 
-Vue.config.productionTip = false
+const app = createApp(App)
 
-window.vm = new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+app.config.productionTip = false
+
+app.use(router)
+app.use(store)
+
+app.mount('#app')

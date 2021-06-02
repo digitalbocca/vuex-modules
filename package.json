@@ -1,17 +1,21 @@
 {
   "name": "vuex-modules",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Exemplo de uso de modulos no Vuex",
-  "main": "index.js",
   "config": {
-    "commitMessage": "Atualização de dependências"
+    "commitMessage": "Atualizado para vuex 4+"
   },
-  "parcelCleanPaths": [
-    "docs"
-  ],
   "scripts": {
-    "dev": "parcel -p 8080 --no-cache ./src/index.pug -d ./docs",
-    "build": "parcel build ./src/index.pug --public-url ./ -d ./docs --no-cache --no-source-maps",
+    "clean-cache": "rm -rf ./.parcel-cache",
+    "clean-dist": "rm -rf ./docs",
+    "predev": "npm run clean-cache && npm run clean-dist",
+    "dev": "parcel src/index.pug --dist-dir ./docs -p 8080 --no-cache",
+    "prebuild": "npm run predev",
+    "build": "parcel build src/index.pug --reporter @parcel/reporter-bundle-analyzer --dist-dir ./docs --public-url ./ --no-source-maps --no-cache ",
+    "rename-report": "mv ./parcel-bundle-reports/default.html ./parcel-bundle-reports/index.html",
+    "shrep": "http-server ./parcel-bundle-reports -o -c-1 -p 9090",
+    "postbuild": "npm run rename-report && npm run shrep",
+    "web": "http-server ./docs",
     "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
     "gst": "git status",
     "gad": "git add .",
@@ -29,19 +33,18 @@
   "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-router": "^3.4.9",
-    "vuex": "^3.5.1"
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.6",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
+    "@parcel/reporter-bundle-analyzer": "^2.0.0-beta.3.1",
+    "@parcel/transformer-pug": "^2.0.0-beta.3.1",
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+    "@parcel/transformer-vue": "^2.0.0-beta.3.1",
     "cross-var-no-babel": "^1.2.0",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-clean-easy": "^1.0.2",
-    "pug": "^3.0.0",
-    "sass": "^1.29.0",
-    "standard": "^16.0.2",
-    "vue-template-compiler": "^2.6.12"
+    "http-server": "^0.12.3",
+    "parcel": "^2.0.0-beta.3.1",
+    "standard": "^16.0.3"
   }
 }

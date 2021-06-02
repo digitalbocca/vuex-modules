@@ -8,7 +8,7 @@
   <p align="center">
     <img src="https://badgen.net/badge/version/v0.15.0/orange">
   </p>
-  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+  <p align="center">(c)2018-2021 Estúdio Digital Bocca</p>
 </p>
 
 ---
@@ -33,4 +33,4 @@ Veja no arquivo [CHANGELOG](CHANGELOG.md)
 
 MIT
 
-> (c)2018-2020 Estúdio Digital Bocca.
+> (c)2018-2021 Estúdio Digital Bocca.
