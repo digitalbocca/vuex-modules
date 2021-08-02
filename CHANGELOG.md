@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v0.17.0</p>
+  <p align="center">Ultima Atualização na v0.17.1</p>
   <h1 align="center">vuex-modules</h1>
   <h4 align="center">
     Exemplo de uso de módulos no Vuex.
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v0.17.0/orange">
+    <img src="https://badgen.net/badge/version/v0.17.1/orange">
   </p>
   <p align="center">(c)2018-2021 Estúdio Digital Bocca</p>
 </p>
@@ -16,6 +16,10 @@
 # Vuex Modules - CHANGELOG
 
 ---
+
+## Mudanças na v0.17.1
+
+- Atualiza dependências.
 
 ## Mudanças na v0.17.0
 
