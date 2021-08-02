@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v0.18.0</p>
+  <p align="center">Ultima Atualização na v0.17.2</p>
   <h1 align="center">vuex-modules</h1>
   <h4 align="center">
     Exemplo de uso de módulos no Vuex.
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v0.18.0/orange">
+    <img src="https://badgen.net/badge/version/v0.17.2/orange">
   </p>
   <p align="center">(c)2018-2021 Estúdio Digital Bocca</p>
 </p>

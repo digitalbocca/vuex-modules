@@ -1,6 +1,6 @@
 {
   "name": "vuex-modules",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "description": "Exemplo de uso de modulos no Vuex",
   "config": {
     "commitMessage": "Atualiza dependências"
@@ -42,6 +42,7 @@
     "@parcel/transformer-sass": "^2.0.0-nightly.794",
     "@parcel/transformer-vue": "^2.0.0-nightly.2416",
     "cross-var-no-babel": "^1.2.0",
+    "ecstatic": "^4.1.4",
     "http-server": "^0.12.3",
     "parcel": "^2.0.0-beta.3.1",
     "standard": "^16.0.3"
