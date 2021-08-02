@@ -1,9 +1,9 @@
 {
   "name": "vuex-modules",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "Exemplo de uso de modulos no Vuex",
   "config": {
-    "commitMessage": "Atualizado para vuex 4+"
+    "commitMessage": "Atualiza dependências"
   },
   "scripts": {
     "clean-cache": "rm -rf ./.parcel-cache",
@@ -12,9 +12,8 @@
     "dev": "parcel src/index.pug --dist-dir ./docs -p 8080 --no-cache",
     "prebuild": "npm run predev",
     "build": "parcel build src/index.pug --reporter @parcel/reporter-bundle-analyzer --dist-dir ./docs --public-url ./ --no-source-maps --no-cache ",
-    "rename-report": "mv ./parcel-bundle-reports/default.html ./parcel-bundle-reports/index.html",
     "shrep": "http-server ./parcel-bundle-reports -o -c-1 -p 9090",
-    "postbuild": "npm run rename-report && npm run shrep",
+    "postbuild": "npm run shrep",
     "web": "http-server ./docs",
     "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
     "gst": "git status",
@@ -33,12 +32,12 @@
   "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.0.11",
-    "vue-router": "^4.0.6",
-    "vuex": "^4.0.0"
+    "vue": "^3.1.5",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@parcel/reporter-bundle-analyzer": "^2.0.0-beta.3.1",
+    "@parcel/reporter-bundle-analyzer": "^2.0.0-nightly.1694",
     "@parcel/transformer-pug": "^2.0.0-beta.3.1",
     "@parcel/transformer-sass": "^2.0.0-beta.3.1",
     "@parcel/transformer-vue": "^2.0.0-beta.3.1",
